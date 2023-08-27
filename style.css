@@ -1,0 +1,336 @@
+/* Add this line to the top of your style.css file */
+/* Add this line to the top of your style.css file */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+.navbar-list {
+    list-style: none;
+    display: flex; /* Use flexbox to create a horizontal layout */
+    justify-content: left; /* Center the items horizontally */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    font-size: 30px;
+    margin: 0px;
+    position: fixed;
+    }
+  
+    .navbar-list a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: rgb(195, 15, 211);
+        font-weight: bold;
+        transition: all 0.2s;
+      }
+      .navbar-list a:hover {
+      
+        transform: scale(1.15);
+        opacity: 1.5; 
+       color: blueviolet;
+      }
+      
+        @media (max-width: 600px) {
+          .navbar-list {
+          font-size: 20px;
+          padding: 5px 5px;
+          }
+        
+         
+        }
+        
+      
+      
+.container{
+   text-align: center;
+   color: rgb(255, 255, 255);
+   padding-top: 40px;
+   padding-bottom: 0;
+   font-family: "Sofia", sans-serif;
+   text-shadow: 3px 3px 3px #5c6063;
+   font-size: 24px;
+
+}
+
+.image{
+    height: 254px;
+    width: 235px;
+   
+}
+.frame{
+    border: 25px solid #ebeff1;
+    display: inline-block;
+    padding: 0%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px rgb(78, 76, 76);
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    background:linear-gradient(to right, rgb(233, 159, 229), #6a9bf7);
+    color: white;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 34px;
+    text-shadow: 3px 3px 2px #5c6063;
+  
+    text-shadow: 3px 3px 3px  #3e3f41;
+   
+    letter-spacing: 1px; /* Slight letter spacing for improved legibility */
+}
+ 
+  .imagepuppy{
+    display: flex;
+    position: absolute;
+    top: 480px;
+    left: 50px;
+    
+}
+
+.eggroll{
+    position: absolute;
+    top: 480px;
+    right: 50px;
+}
+.love{
+
+    position: absolute;
+    top: 880px;
+    right: 150px;
+    
+}  
+.nature{
+    position: absolute;
+    top: 880px;
+    left: 180px;
+  
+}
+.container3{
+    background:linear-gradient(to right, rgb(233, 159, 229), #6a9bf7);
+    text-align: left;
+    color: rgb(255, 255, 255);
+   width: 100%;
+   display: flex;
+   padding: 10px;
+   font-family: "Roboto", sans-serif;
+   text-shadow: 3px 3px 3px #5c6063;
+   font-size: 30px;
+   text-shadow: 3px 3px 3px  #3e3f41;
+   display: inline-block;
+}
+
+.fonts12{
+    margin-left: 500px;
+    font-family: 'Sofia';
+    font-size: 60px;
+    margin-top: 10px;
+   
+  
+   
+}
+.web{
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin-left: 200px;
+}
+.p{
+    display: block;
+}
+.web1{
+    margin-top: 128px;
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    
+}
+.fonts1{
+    font-family: 'Sofia';
+    font-size: 50px;
+    
+}
+@media (max-width: 600px) {
+.fonts1 {
+  font-size: 25px;
+}
+ 
+  
+}
+
+.container4 {
+    
+    text-align: center;
+    color: white;
+    padding: 40px;
+    font-family: 'sofia' sans-serif;
+    font-size: 24px;
+    text-shadow: 2px 2px 1px #5c6063;
+   
+    font-weight: 200;
+    padding: 25px; 
+}
+
+
+.flex-itemb{
+  display: inline-block;
+  color: rgb(16, 10, 107);
+  text-shadow: none; 
+
+}
+.btn{
+  transition: all 0.3s;
+}
+
+.btn:hover {
+   transform: scale(1.15); 
+  }
+
+
+
+.fonts3{
+  text-align: center;
+  color: #fdfeff;
+ font-family: "Sofia", sans-serif;
+  font-size: 55px;
+  text-shadow: 3px 3px 2px #5c6063;
+}
+  body{
+  
+   background:linear-gradient(to right, rgb(233, 159, 229), #6a9bf7);
+  }
+  .footer{
+    text-align: left;
+    
+    text-shadow: none;
+  }
+  .email-btn{
+    margin-right: 20px;
+  }
+  .linkedin-btn{
+    margin-right: 20px;
+  }
+  .git-btn {
+    margin-left: 15px;
+  }
+ @media (max-width:600px) {
+  .email-btn {
+    height: 35px;
+    
+  }
+  
+ }
+  
+  
+  .flexbox-container{
+    
+    color: white;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-family: 'Sofia' sans-serif;
+    font-size: 24px;
+    text-shadow: 3px 3px 2px #5c6063;
+  
+    font-weight: 500;
+  
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+   }
+   @media (max-width: 600px) {
+    .flexbox-container{
+      font-size: 25px;
+    }
+   }
+ 
+    
+  
+  .item1{
+   min-height: 200px;
+   width: 500px;
+  padding: 0%;
+   margin: 20px;
+   margin-top: 0%;
+   margin-bottom: 0%;
+   font-size: 35px;
+
+  }
+  @media (max-width: 600px) {
+    .item1 {
+      font-size: 25px;
+    }
+    
+  }
+  .item2{
+    min-height: 300px;
+    width: 500px;
+    margin: 20px;
+    padding: 0%;
+   font-size: 35px;
+   margin-top: 0%;
+   margin-bottom: 0%;
+  }
+  @media (max-width: 800px) {
+    .container {
+      font-size: 15px;
+     
+    }
+    
+  }
+  @media ( max-width: 600px) {
+    .image{
+      height: 180px;
+      width: 180px;
+    }
+    .item2 {
+      font-size: 25px;
+    }
+  }
+ @media (max-width: 600px) {
+  .container2{
+    font-size: 25px;
+  }
+  .fonts3{
+    font-size: 35px;
+   }
+ }
+ @media (max-width: 800px) {
+  .container2 {
+    font-size: 35px;
+  }
+
+  .eggroll{
+    height: 100px;
+    width: 100px;
+  }
+
+  .imagepuppy{
+    height: 90px;
+    width: 90px;
+  }
+}
+ @media (max-width: 600px) {
+  .container2 {
+    font-size: 25px;
+  }
+
+  .eggroll{
+    height: 65px;
+    width: 65px;
+  }
+
+  .imagepuppy{
+    height: 60px;
+    width: 60px;
+  }
+}
+@media (max-width: 1200px) {
+  .love,
+  .nature {
+    display: none;
+  }
+}
+@media (max-width:600px) {
+  .container4{
+    font-size: 18px;
+  }
+  
+}
