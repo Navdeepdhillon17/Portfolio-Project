@@ -3,11 +3,11 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
 .navbar-list {
-    list-style: none;
+  list-style: none;
     display: flex; /* Use flexbox to create a horizontal layout */
     justify-content: left; /* Center the items horizontally */
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.3);
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.185);
     font-size: 30px;
     margin: 0px;
     position: fixed;
@@ -15,9 +15,9 @@
   
     .navbar-list a {
         display: block;
-        padding: 10px 20px;
+        padding: 0.785rem;
         text-decoration: none;
-        color: rgb(195, 15, 211);
+        color: rgb(191, 6, 228);
         font-weight: bold;
         transition: all 0.2s;
       }
@@ -25,7 +25,7 @@
       
         transform: scale(1.15);
         opacity: 1.5; 
-       color: blueviolet;
+       color: rgb(110, 3, 209);
       }
       
         @media (max-width: 600px) {
@@ -63,19 +63,28 @@
     box-shadow: 10px 10px 8px rgb(78, 76, 76);
 }
 .container2 {
+  justify-content: center;
     display: flex;
-    flex-direction: column;
-    background:linear-gradient(to right, rgb(233, 159, 229), #6a9bf7);
-    color: white;
+   color: white;
     padding-top: 5px;
-    text-align: center;
     font-size: 34px;
     text-shadow: 3px 3px 2px #5c6063;
-  
+     margin-top: 0%;
+     margin-bottom: 0%;
     text-shadow: 3px 3px 3px  #3e3f41;
-   
-    letter-spacing: 1px; /* Slight letter spacing for improved legibility */
+    flex-wrap: wrap;
+   letter-spacing: 1px; /* Slight letter spacing for improved legibility */
 }
+   .flex-it{
+    text-align: center;
+    min-height: 200px;
+   width: 900px;
+  padding: 10px;
+   margin: 20px;
+   margin-top: 0%;
+   margin-bottom: 0%;
+   font-size: 35px;
+   }
  
   .imagepuppy{
     display: flex;
@@ -103,19 +112,8 @@
     left: 180px;
   
 }
-.container3{
-    background:linear-gradient(to right, rgb(233, 159, 229), #6a9bf7);
-    text-align: left;
-    color: rgb(255, 255, 255);
-   width: 100%;
-   display: flex;
-   padding: 10px;
-   font-family: "Roboto", sans-serif;
-   text-shadow: 3px 3px 3px #5c6063;
-   font-size: 30px;
-   text-shadow: 3px 3px 3px  #3e3f41;
-   display: inline-block;
-}
+
+
 
 .fonts12{
     margin-left: 500px;
@@ -126,23 +124,9 @@
   
    
 }
-.web{
-    float: left;
-    height: 300px;
-    width: 300px;
-    margin-left: 200px;
-}
-.p{
-    display: block;
-}
-.web1{
-    margin-top: 128px;
-    display: inline-block;
-    height: 300px;
-    width: 300px;
-    margin-left: 100px;
-    
-}
+
+
+
 .fonts1{
     font-family: 'Sofia';
     font-size: 50px;
@@ -228,9 +212,7 @@
     font-family: 'Sofia' sans-serif;
     font-size: 24px;
     text-shadow: 3px 3px 2px #5c6063;
-  
     font-weight: 500;
-  
     flex-wrap: wrap;
     display: flex;
     justify-content: space-around;
@@ -244,7 +226,7 @@
     
   
   .item1{
-   min-height: 200px;
+   min-height: 300px;
    width: 500px;
   padding: 0%;
    margin: 20px;
@@ -268,6 +250,68 @@
    margin-top: 0%;
    margin-bottom: 0%;
   }
+  .flex-Project{
+    color: white;
+  
+    font-family: 'Sofia' sans-serif;
+    font-size: 24px;
+    text-shadow: 3px 3px 2px #5c6063;
+    font-weight: 500;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+  }
+  .flex-Project img{
+    padding: 0.5rem;
+   margin: 5px;
+   border: 7px dotted white;
+
+  }
+
+.flex-Project button{
+  background-color: blueviolet;
+  margin: 1rem;
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 0.75rem;
+  box-shadow: 2px 2px#707174;
+  border: solid;
+  border-radius: 30px;
+  transition: all 0.2s;
+}
+.flex-Project button:hover{
+  transform: scale(1.15);
+  background-color:  rgb(247, 109, 252);
+}
+  .item3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+   font-weight: bold;
+   text-shadow: 1px 1.5px 1px#5c6063;
+}
+.item4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+ font-weight: bold;
+ text-shadow: 1px 1.5px 1px#5c6063;
+}
+.item5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+ font-weight: bold;
+ text-shadow: 1px 1.5px 1px#5c6063;
+}
+
   @media (max-width: 800px) {
     .container {
       font-size: 15px;
